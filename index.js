@@ -8,8 +8,8 @@ A7MD.on("guildMemberAdd", member => {
   return channel.send(` 
 **
 سلام عليكم 
-لو سمحت ممكن تدخل سيرفرى
-                               [ https://discord.gg/CnTFFV4 ] 
+10 invite = 40k credit
+                               [ https://discord.gg/RazjjJs ] 
 الدعووة خاصة لك ... [ ${member}  ]
 **`) 
 }).catch(console.error)
