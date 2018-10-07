@@ -9,7 +9,7 @@ A7MD.on("guildMemberAdd", member => {
 **
 سلام عليكم 
 10 invite = 40k credit
-                               [ https://discord.gg/RazjjJs ] 
+                               [ https://discord.gg/HpDuavj ] 
 الدعووة خاصة لك ... [ ${member}  ]
 **`) 
 }).catch(console.error)
