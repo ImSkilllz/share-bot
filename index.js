@@ -14,4 +14,4 @@ A7MD.on("guildMemberAdd", member => {
 **`) 
 }).catch(console.error)
 })
-A7MD.login("NDk5OTg4MzQ0MzcwMTAyMjgy.DqEUrg.Idxt-L5PeX3ZGm8_miPZRoRdy1Y");
+A7MD.login("MzM1Mzg2MDU5MzY0MTA2MjQz.DqEb9g.iyeC1u6mQbmuaAzRiFRvM6bYlN8");
