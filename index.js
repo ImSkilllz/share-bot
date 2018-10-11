@@ -9,9 +9,9 @@ A7MD.on("guildMemberAdd", member => {
 **
 سلام عليكم 
 10 invite = 40k credit
-                               [ https://discord.gg/daEXjN ] 
+                               [ https://discord.gg/xybcgv ] 
 الدعووة خاصة لك ... [ ${member}  ]
 **`) 
 }).catch(console.error)
 })
-A7MD.login("NDk4NDg4Nzc5ODQ2MTg5MDU2.DpvLig.x1tsWahvMiGbgReZtzouUppB6ko");
+A7MD.login("NDk5OTg4MzQ0MzcwMTAyMjgy.DqEUrg.Idxt-L5PeX3ZGm8_miPZRoRdy1Y");
