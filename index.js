@@ -1,17 +1,28 @@
 const Discord = require('discord.js');
-const A7MD = new Discord.Client();
+const client = new Discord.Client();
 
-console.log("BOT ONLINE");
+console.log("Welcome SPECIAL !");
  
-A7MD.on("guildMemberAdd", member => {
+ client.on("guildMemberRemove", member => {
   member.createDM().then(function (channel) {
   return channel.send(` 
-**
-سلام عليكم 
-10 invite = 40k credit
-                               [ https://discord.gg/ZJzXeqD ] 
-الدعووة خاصة لك ... [ ${member}  ]
+**سلام عليكم
+افضل سيرفر عربي ل اكواد بوتات دسكورد
+                               [ https://discord.gg/2Tq6HFJ ] 
+الدعوة خاصة لك ي قلبي... [ ${member}  ]
+**`)
+}).catch(console.error)
+
+})
+ 
+client.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**سلام عليكم
+افضل سيرفر عربي ل اكواد بوتات دسكورد
+                               [ https://discord.gg/SaJUeXu ] 
+الدعوة خاصة لك ي قلبي... [ ${member}  ]
 **`) 
 }).catch(console.error)
 })
-A7MD.login("MzM1Mzg2MDU5MzY0MTA2MjQz.DqEb9g.iyeC1u6mQbmuaAzRiFRvM6bYlN8");
+client.login('NDkwOTU0ODYxNTMwMTg1NzI5.DoTIBA.GkncER0xfW8vCwNL5-ZkJOKek3s');
