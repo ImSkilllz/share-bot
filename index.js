@@ -7,8 +7,8 @@ console.log("Welcome SPECIAL !");
   member.createDM().then(function (channel) {
   return channel.send(` 
 **سلام عليكم
-افضل سيرفر عربي ل اكواد بوتات دسكورد
-                               [ https://discord.gg/2Tq6HFJ ] 
+10 invite = 25 credits !!!
+[ https://discord.gg/2Tq6HFJ ] 
 الدعوة خاصة لك ي قلبي... [ ${member}  ]
 **`)
 }).catch(console.error)
@@ -20,9 +20,9 @@ client.on("guildMemberAdd", member => {
   return channel.send(` 
 **سلام عليكم
 افضل سيرفر عربي ل اكواد بوتات دسكورد
-                               [ https://discord.gg/SaJUeXu ] 
+                               [ https://discord.gg/SqETYQy ] 
 الدعوة خاصة لك ي قلبي... [ ${member}  ]
 **`) 
 }).catch(console.error)
 })
-client.login('NDkwOTU0ODYxNTMwMTg1NzI5.DoTIBA.GkncER0xfW8vCwNL5-ZkJOKek3s');
+client.login("NDc0MzI1NTc0NjQ3NTQ1ODg3.DqKsZw.nqXx-BV9lkcYrYg1GTOBf7-C9-s");
