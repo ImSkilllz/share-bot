@@ -8,8 +8,8 @@ A7MD.on("guildMemberAdd", member => {
   return channel.send(` 
 **
 سلام عليكم 
-10 invite = 25k credit !!
-[ https://discord.gg/SqETYQy ] 
+افضل سيرفر عربي لأكواد بوتات الدسكورد
+[ https://discord.gg/SaJUeXu ] 
 الدعووة خاصة لك ... [ ${member}  ]
 **`) 
 }).catch(console.error)
