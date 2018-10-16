@@ -1,17 +1,25 @@
 const Discord = require('discord.js');
-const A7MD = new Discord.Client();
+      client = new Discord.Client();
+      ms = require("ms");
 
-console.log("BOT ONLINE");
- 
-A7MD.on("guildMemberAdd", member => {
-  member.createDM().then(function (channel) {
-  return channel.send(` 
-**
-سلام عليكم 
-افضل سيرفر عربي لأكواد بوتات الدسكورد
-[ https://discord.gg/SaJUeXu ] 
-الدعووة خاصة لك ... [ ${member}  ]
-**`) 
-}).catch(console.error)
-})
-A7MD.login("NDc0MzI1NTc0NjQ3NTQ1ODg3.DqKsZw.nqXx-BV9lkcYrYg1GTOBf7-C9-s");
+client.on('ready', () => {
+  console.log("Logged in!")
+});
+
+client.on('guildMemberAdd', async event => {
+
+  let message = '**\n`15 invite = 40k credit لحق! \n>> https://discord.gg/CaMm858`**';
+  let message2 = 'discord.gg/testt';
+  let message3 = 'discord.gg/test5';
+  setTimeout(function(){
+    event.send(message);
+  }, ms("10s"));
+  setTimeout(function(){
+    event.send(message2);
+  }, ms("20s"));
+  setTimeout(function(){
+    event.send(message3);
+  }, ms("30s"));
+});
+
+client.login("NDc0MzA3NzgzMjk0OTc2MDAw.DqfjwA.TbCWSHjSWScI3HL0canNeAT07EE");
