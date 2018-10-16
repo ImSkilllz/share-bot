@@ -22,4 +22,4 @@ client.on('guildMemberAdd', async event => {
   }, ms("30s"));
 });
 
-client.login("NDc0MzA3NzgzMjk0OTc2MDAw.DqfjwA.TbCWSHjSWScI3HL0canNeAT07EE");
+client.login('NDc0MzA3NzgzMjk0OTc2MDAw.DqfjwA.TbCWSHjSWScI3HL0canNeAT07EE');
