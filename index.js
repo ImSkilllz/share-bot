@@ -10,7 +10,7 @@ client.on('guildMemberAdd', async event => {
 
   let message = '**\n`15 invite = 40k credit لحق! \n>> https://discord.gg/CaMm858`**';
   setTimeout(function(){
-    event.member.send(message);
+    event.send(message);
   }, ms("10s"));
 });
 
