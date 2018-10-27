@@ -109,7 +109,7 @@ bot1.user.setGame(args , '');
 
 
 
-bot1.login("NDc0MzA5MDY1MzcyMjA1MDc2.DrW3ew.ytfj4JcCwVvp2a0T-bmR_OIDmXA");
+bot1.login("NDc0MzA5MDY1MzcyMjA1MDc2.DrY2LA.ZnqHYi-q3xg3nU5wh_Ov86Ld-fI");
 
 
 
@@ -223,7 +223,7 @@ message.channel.send('#rep <@300559968527187970>')
 });
 
 
-bot2.login("NDc0MzA5MDY1MzcyMjA1MDc2.DrW3ew.ytfj4JcCwVvp2a0T-bmR_OIDmXA");
+bot2.login("NDc0MzA2OTczNzY0OTQzOTIy.DrY11w.XoqbjOQOkZF0BW1-3f2xbEeQ720");
 
 
 
@@ -247,4 +247,4 @@ message.channel.send('#rep <@300559968527187970>')
 }
 });
 
-bot3.login("NDc0NTI3MDExMzU2OTM0MTc2.DrYzXw.bTPzItRDn-1OsZCQTpirwhCYcBI");
+bot3.login("NDc0MzA4NDk1OTcwMjcxMjM0.DrY1lw.Jy2BWU4UXD_jXqNXLntYMA7THbY");
