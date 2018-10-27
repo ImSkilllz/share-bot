@@ -101,7 +101,7 @@ bot1.user.setGame(args , '');
 
 
 
-bot1.login("NDc0MzA5MDY1MzcyMjA1MDc2.DrW3ew.ytfj4JcCwVvp2a0T-bmR_OIDmXA");
+bot1.login("NDc0NTIwOTk0ODYyNzI3MjA4.DrYwoQ.edorLYsT8h9SsvD1FJwZzBABBOo");
 
 //الي فوق bot1 
 //وتحت bot2
@@ -210,4 +210,4 @@ message.channel.send('#daily')
 });
 
 
-bot2.login("NDc0MzA5MDY1MzcyMjA1MDc2.DrW3ew.ytfj4JcCwVvp2a0T-bmR_OIDmXA");
+bot2.login("NDc0NTI1NzIwNzEwODczMDg4.DrYyCA.4IwKxbDRD-Udq4pRgMFvV84wm_0");
