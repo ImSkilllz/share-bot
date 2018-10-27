@@ -34,11 +34,12 @@ bot1.on('ready', () => {
 message.channel.send('#daily')
 }
 });
+
  bot1.on('message', message => {
   
   if (message.content === 'do rep') {
 
-message.channel.send('#rep @<300559968527187970>')
+message.channel.send('#rep <@300559968527187970>')
 }
 });
 
@@ -217,7 +218,7 @@ message.channel.send('#daily')
   
   if (message.content === 'do rep') {
 
-message.channel.send('#rep @<300559968527187970>')
+message.channel.send('#rep <@300559968527187970>')
 }
 });
 
@@ -242,7 +243,7 @@ message.channel.send('#daily')
   
   if (message.content === 'do rep') {
 
-message.channel.send('#rep @<300559968527187970>')
+message.channel.send('#rep <@300559968527187970>')
 }
 });
 
