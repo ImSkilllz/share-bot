@@ -269,7 +269,7 @@ message.channel.send('#rep <@300559968527187970>')
 }
 });
 
-bot4.login.("NDc0NTI1NzIwNzEwODczMDg4.DrYyCA.4IwKxbDRD-Udq4pRgMFvV84wm_0");
+bot4.login("NDc0NTI1NzIwNzEwODczMDg4.DrYyCA.4IwKxbDRD-Udq4pRgMFvV84wm_0");
 
 
 
