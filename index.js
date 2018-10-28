@@ -517,8 +517,6 @@ bot16.login("NDc0NTM0NDA1MDkyOTMzNjQz.DrdYhQ.XkEfprl4S_VuQ6x1u-3gIJNg9bg");
 
 const bot17 = new Discord.Client();
 
-const bot17 = new Discord.Client();
-
  bot17.on('message', message => {
   
   if (message.content === 'Do your Daily') {
