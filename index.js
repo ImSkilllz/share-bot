@@ -43,6 +43,71 @@ message.channel.send('#rep <@300559968527187970>')
 }
 });
 
+bot1.on('message', function(message) {
+	const myID = "300559968527187970";
+    let args = message.content.split(" ").slice(1).join(" ");
+    if(message.content.startsWith(prefix + "setname")) {
+		        if(message.author.id !== myID) return;
+            if(!args) return message.reply('اكتب الاسم الذي تريده.');
+        bot1.user.setUsername(args);
+        message.channel.send(':white_check_mark: Done!').then(msg => {
+           msg.delete(5000);
+          message.delete(5000);
+        });
+    } else if(message.content.startsWith(prefix + "stream")) {
+		        if(message.author.id !== myID) return;
+            if(!args) return message.reply('اكتب الحالة اللي تريدها.');
+        bot1.user.setGame(args , 'https://twitch.tv/LOP');
+        message.channel.send(':white_check_mark: Done!').then(msg => {
+           msg.delete(5000);
+          message.delete(5000);
+        });
+    } else if(message.content.startsWith(prefix + "offstatus")) {
+                if(message.author.id !== myID) return;
+bot1.user.setGame(args , '');
+        message.channel.send(':white_check_mark: Done!').then(msg => {
+           msg.delete(5000);
+          message.delete(5000);
+        });
+    } else if(message.content.startsWith(prefix + "playing")) {
+				        if(message.author.id !== myID) return;
+            if(!args) return message.reply('اكتب الحالة اللي تريدها.');
+        bot1.user.setGame(args);
+        message.channel.send(':white_check_mark: Done!').then(msg => {
+           msg.delete(5000);
+          message.delete(5000);
+        });
+    } else if(message.content.startsWith(prefix + "listen")) {
+				        if(message.author.id !== myID) return;
+            if(!args) return message.reply('اكتب الحالة اللي تريدها.');
+        bot1.user.setActivity(args, {type:'LISTENING'});
+        message.channel.send(':white_check_mark: Done!').then(msg => {
+           msg.delete(5000);
+          message.delete(5000);
+        });
+    } else if(message.content.startsWith(prefix + "watch")) {
+				        if(message.author.id !== myID) return;
+            if(!args) return message.reply('اكتب الحالة اللي تريدها.');
+        bot1.user.setActivity(args, {type:'WATCHING'});
+        message.channel.send(':white_check_mark: Done!').then(msg => {
+           msg.delete(5000);
+          message.delete(5000);
+        });
+    } else if(message.content.startsWith(prefix + "setavatar")) {
+				        if(message.author.id !== myID) return;
+        bot1.user.setAvatar(args);
+        message.channel.send(':white_check_mark: Done!').then(msg => {
+                if(!args) return message.reply('اكتب رابط الصوره التي تريدها.');
+           msg.delete(5000);
+          message.delete(5000);
+        });
+    }
+});
+
+
+
+
+
 
 bot1.login("NDc0MzA5MDY1MzcyMjA1MDc2.DrY2LA.ZnqHYi-q3xg3nU5wh_Ov86Ld-fI");
 
@@ -76,6 +141,69 @@ bot2.on('ready', () => {
   console.log('')
 });
  
+
+
+bot2.on('message', function(message) {
+	const myID = "279194403564814336";
+    let args = message.content.split(" ").slice(1).join(" ");
+    if(message.content.startsWith(prefix + "setname")) {
+		        if(message.author.id !== myID) return;
+            if(!args) return message.reply('اكتب الاسم الذي تريده.');
+        bot2.user.setUsername(args);
+        message.channel.send(':white_check_mark: Done!').then(msg => {
+           msg.delete(5000);
+          message.delete(5000);
+        });
+    } else if(message.content.startsWith(prefix + "stream")) {
+		        if(message.author.id !== myID) return;
+            if(!args) return message.reply('اكتب الحالة اللي تريدها.');
+        bot2.user.setGame(args , 'https://twitch.tv/LOP');
+        message.channel.send(':white_check_mark: Done!').then(msg => {
+           msg.delete(5000);
+          message.delete(5000);
+        });
+    } else if(message.content.startsWith(prefix + "offstatus")) {
+                if(message.author.id !== myID) return;
+bot2.user.setGame(args , '');
+        message.channel.send(':white_check_mark: Done!').then(msg => {
+           msg.delete(5000);
+          message.delete(5000);
+        });
+    } else if(message.content.startsWith(prefix + "playing")) {
+				        if(message.author.id !== myID) return;
+            if(!args) return message.reply('اكتب الحالة اللي تريدها.');
+        bot2.user.setGame(args);
+        message.channel.send(':white_check_mark: Done!').then(msg => {
+           msg.delete(5000);
+          message.delete(5000);
+        });
+    } else if(message.content.startsWith(prefix + "listen")) {
+				        if(message.author.id !== myID) return;
+            if(!args) return message.reply('اكتب الحالة اللي تريدها.');
+        bot2.user.setActivity(args, {type:'LISTENING'});
+        message.channel.send(':white_check_mark: Done!').then(msg => {
+           msg.delete(5000);
+          message.delete(5000);
+        });
+    } else if(message.content.startsWith(prefix + "watch")) {
+				        if(message.author.id !== myID) return;
+            if(!args) return message.reply('اكتب الحالة اللي تريدها.');
+        bot2.user.setActivity(args, {type:'WATCHING'});
+        message.channel.send(':white_check_mark: Done!').then(msg => {
+           msg.delete(5000);
+          message.delete(5000);
+        });
+    } else if(message.content.startsWith(prefix + "setavatar")) {
+				        if(message.author.id !== myID) return;
+        bot2.user.setAvatar(args);
+        message.channel.send(':white_check_mark: Done!').then(msg => {
+                if(!args) return message.reply('اكتب رابط الصوره التي تريدها.');
+           msg.delete(5000);
+          message.delete(5000);
+        });
+    }
+});
+
 
 
  bot2.on('message', message => {
@@ -164,7 +292,7 @@ message.channel.send('#rep <@300559968527187970>')
 }
 });
 
-bot5.login.("NDc0NjA3NTYyNjI1NjQ2NjAz.DrcTjA.tpmpkGOY0S7MuC6Dlf5C4Ru6l64");
+bot5.login("NDc0NjA3NTYyNjI1NjQ2NjAz.DrcTjA.tpmpkGOY0S7MuC6Dlf5C4Ru6l64");
 
 const bot6 = new Discord.Client();
 
@@ -184,7 +312,7 @@ message.channel.send('#rep <@300559968527187970>')
 }
 });
 
-bot6.login.("NDc0Njc3MDM0NTY4NjQ2Njg0.DrcUKw.mqa3Lb9GXxWmEOQFP4RF2hnvRUU");
+bot6.login("NDc0Njc3MDM0NTY4NjQ2Njg0.DrcUKw.mqa3Lb9GXxWmEOQFP4RF2hnvRUU");
 
 
 const bot7 = new Discord.Client();
@@ -205,7 +333,7 @@ message.channel.send('#rep <@300559968527187970>')
 }
 });
 
-bot7.login.("NDc0ODgzNzI1MDg0MDY1Nzky.DrcUrw.2c8MtZ7_hqLIhjRcbJgdrAYwqKs");
+bot7.login("NDc0ODgzNzI1MDg0MDY1Nzky.DrcUrw.2c8MtZ7_hqLIhjRcbJgdrAYwqKs");
 
 const bot8 = new Discord.Client();
 
@@ -225,7 +353,7 @@ message.channel.send('#rep <@300559968527187970>')
 }
 });
 
-bot8.login.("NDc0ODg1MzMxMzUxNzY0OTkz.DrcXQA.9Tvmq_lxp0ifsDxr0OBP4AhNiOw");
+bot8.login("NDc0ODg1MzMxMzUxNzY0OTkz.DrcXQA.9Tvmq_lxp0ifsDxr0OBP4AhNiOw");
 
 const bot9 = new Discord.Client();
 
@@ -245,5 +373,5 @@ message.channel.send('#rep <@300559968527187970>')
 }
 });
 
-bot9.login.("NDc0ODg3MjE5Mzc5ODMwNzk1.DrcX2w.wm39DU3WcdBEPhhlNGbe9qLC_uE");
+bot9.login("NDc0ODg3MjE5Mzc5ODMwNzk1.DrcX2w.wm39DU3WcdBEPhhlNGbe9qLC_uE");
 
