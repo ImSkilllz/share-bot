@@ -554,3 +554,103 @@ message.channel.send('#rep <@300559968527187970>')
 });
 
 bot18.login("NDc0NTcwMzc3MjYwMTcxMjk1.DrdaLQ.LIOO0uTDLKTqB2I8jK86I7pbRF0");
+
+const bot19 = new Discord.Client();
+
+ bot19.on('message', message => {
+  
+  if (message.content === 'Do your Daily') {
+
+message.channel.send('#daily')
+}
+});
+
+ bot19.on('message', message => {
+  
+  if (message.content === 'do rep') {
+
+message.channel.send('#rep <@300559968527187970>')
+}
+});
+
+bot19.login("NDc4NTMxMDMwNDMzOTIzMTAx.DrphAw.3Tng2BvVEDL1YMWdkDnTokdASU0");
+
+const bot20 = new Discord.Client();
+
+ bot20.on('message', message => {
+  
+  if (message.content === 'Do your Daily') {
+
+message.channel.send('#daily')
+}
+});
+
+ bot20.on('message', message => {
+  
+  if (message.content === 'do rep') {
+
+message.channel.send('#rep <@300559968527187970>')
+}
+});
+
+bot20.login("NDc1NzEwMTI4MjI2ODI4Mjk5.DrphhA.Cd2dMqaCm0tDmaGrE_sfNOm6SdY");
+
+const bot21 = new Discord.Client();
+
+ bot21.on('message', message => {
+  
+  if (message.content === 'Do your Daily') {
+
+message.channel.send('#daily')
+}
+});
+
+ bot21.on('message', message => {
+  
+  if (message.content === 'do rep') {
+
+message.channel.send('#rep <@300559968527187970>')
+}
+});
+
+bot21.login("NDc1NjMwMTM0MjI1Nzk3MTMx.Drph8Q.iK-rlDN1HW9CvmdKH5Q_L7bw2J8");
+
+const bot22 = new Discord.Client();
+
+ bot22.on('message', message => {
+  
+  if (message.content === 'Do your Daily') {
+
+message.channel.send('#daily')
+}
+});
+
+ bot22.on('message', message => {
+  
+  if (message.content === 'do rep') {
+
+message.channel.send('#rep <@300559968527187970>')
+}
+});
+
+bot22.login("NDc1MzAxMjI2NTk1MjIxNTA0.DrpiOQ.ngHWSwnZa0H34mcyyrx3tRBOL-0");
+
+const bot23 = new Discord.Client();
+
+ bot23.on('message', message => {
+  
+  if (message.content === 'Do your Daily') {
+
+message.channel.send('#daily')
+}
+});
+
+ bot23.on('message', message => {
+  
+  if (message.content === 'do rep') {
+
+message.channel.send('#rep <@300559968527187970>')
+}
+});
+
+bot23.login("NDc1Mjk3OTM2Mzk0Mjg5MTYy.DrpigQ.HRwaaNMjVj5nSZ4MzMHmFPjc8vI");
