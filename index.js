@@ -694,3 +694,122 @@ message.channel.send('#rep <@300559968527187970>')
 });
 
 bot25.login("NDc1MjUxMDIzNDQzNzg3ODE2.DrpkCg.n5fbAu6-FOMpHhV5FPWWyzI08W8");
+
+const bot26 = new Discord.Client();
+
+ bot26.on('message', message => {
+  
+  if (message.content === 'Do your Daily') {
+
+message.channel.send('#daily')
+}
+});
+
+ bot26.on('message', message => {
+  
+  if (message.content === 'do rep') {
+
+message.channel.send('#rep <@300559968527187970>')
+}
+});
+
+bot26.login("NDc1MjQ5MTE5MjA0NzM3MDI1.Drpmxw.tRFvcKwfCXBSQ2K61-wUrPBoyQM");
+
+const bot27 = new Discord.Client();
+
+ bot27.on('message', message => {
+  
+  if (message.content === 'Do your Daily') {
+
+message.channel.send('#daily')
+}
+});
+
+ bot27.on('message', message => {
+  
+  if (message.content === 'do rep') {
+
+message.channel.send('#rep <@300559968527187970>')
+}
+});
+
+bot27.login("NDc1MjQ1NDM5OTU2ODExNzc3.DrpnLw.Q-YxLh--7NKLoOMmjdT6KTa3eUM");
+
+const bot28 = new Discord.Client();
+
+ bot28.on('message', message => {
+  
+  if (message.content === 'Do your Daily') {
+
+message.channel.send('#daily')
+}
+});
+
+ bot28.on('message', message => {
+  
+  if (message.content === 'do rep') {
+
+message.channel.send('#rep <@300559968527187970>')
+}
+});
+
+bot28.login("NDc1MjQyODU0MTM5MDM1NjUw.Drpnkg.RnS_CsmOWkoJq39qPVJGNQI0o6E");
+const bot29 = new Discord.Client();
+
+ bot29.on('message', message => {
+  
+  if (message.content === 'Do your Daily') {
+
+message.channel.send('#daily')
+}
+});
+
+ bot29.on('message', message => {
+  
+  if (message.content === 'do rep') {
+
+message.channel.send('#rep <@300559968527187970>')
+}
+});
+
+bot29.login("NDc1MDI2MjAxMTM2ODU3MDg4.Drpn2g.6WZ4hH4Iul9JeLc1hqPry5v6uUY");
+
+const bot30 = new Discord.Client();
+
+ bot30.on('message', message => {
+  
+  if (message.content === 'Do your Daily') {
+
+message.channel.send('#daily')
+}
+});
+
+ bot30.on('message', message => {
+  
+  if (message.content === 'do rep') {
+
+message.channel.send('#rep <@300559968527187970>')
+}
+});
+
+bot30.login("NDc0OTQyNDI4NjcyMTYzODUx.DrpoHg.1aKrh3OCkyQWvvbhcJlIAS7ZzUw");
+
+const bot31 = new Discord.Client();
+
+ bot31.on('message', message => {
+  
+  if (message.content === 'Do your Daily') {
+
+message.channel.send('#daily')
+}
+});
+
+ bot31.on('message', message => {
+  
+  if (message.content === 'do rep') {
+
+message.channel.send('#rep <@300559968527187970>')
+}
+});
+
+bot31.login("NDc0OTQzNzI3OTM3NTE5NjQ4.DrpoZw.spYY6Kmtdh9hGzUczmNjm-NVcrg");
